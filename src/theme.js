@@ -1,7 +1,7 @@
 export const theme = {
     color: {
         black: "#000",
-        white: "#fff",
+        white: "#ffffff",
         teal: "#008080",
         silver: "#cccccc",
         gallery: "#eee",
@@ -10,6 +10,7 @@ export const theme = {
         alto: "#ddd",
         mercury: "#E5E5E5",
         slate_gray: "#6E7E91",
+        science_blue: "#0366D6",
     },
 
     breakpoint: {
