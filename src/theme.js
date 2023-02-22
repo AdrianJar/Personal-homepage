@@ -8,7 +8,8 @@ export const theme = {
         forest_green: "#1a7a1d",
         pomegranate: "#ee2b2b",
         alto: "#ddd",
-        mercury: "#E5E5E5"
+        mercury: "#E5E5E5",
+        slate_gray: "#6E7E91",
     },
 
     breakpoint: {
