@@ -1,13 +1,12 @@
 import { Container } from "./components/Container";
 import Hero from "./components/Hero";
-import { StyledTile } from "./components/Tile/styled";
+
 
 function App() {
   return (
     <Container>
-      <StyledTile transparent>
-        <Hero />
-      </StyledTile >
+      <Hero>12412313421
+      </Hero>
     </Container>
   );
 }
