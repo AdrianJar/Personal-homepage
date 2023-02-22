@@ -4,10 +4,16 @@ export const Wrapper = styled.div`
     margin-left: 66px;
 `;
 
+export const Image = styled.img`
+    height: 398px;
+    width: 398px;
+    border-radius: 50%;
+`;
+
 export const ThisIs = styled.caption`
     width: 43px;
     margin-top: 64px;
-    color: ${({theme}) => theme.color.slate_gray};
+    color: ${({ theme }) => theme.color.slate_gray};
     font-weight: 700;
     font-size: 12px;
     line-height: 15.6px;
