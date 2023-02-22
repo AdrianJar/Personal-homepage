@@ -1,9 +1,14 @@
-import { StyledHero } from "./styled";
+import { Tile } from "../../common/Tile/styled";
+import { Image } from "./Image/styled";
+import me from "../../image/me.jpeg"
+import Content from "./Content";
 
 const Hero = () => {
-
     return (
-        <StyledHero>123</StyledHero>
+        <Tile>
+            <Image src={me} alt="Adrian Jaroszuk"/>
+            <Content/>
+        </Tile>
     );
 }
 
