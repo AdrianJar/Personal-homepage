@@ -14,5 +14,6 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     background: ${({ theme }) => theme.color.mercury};
+    margin: 120px 0 110px;
 }
 `;
