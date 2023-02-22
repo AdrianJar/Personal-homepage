@@ -1,4 +1,5 @@
-import { Header, Paragraph, ThisIs, Wrapper } from "./styled";
+import Button from "./Button";
+import { Header, Paragraph, ThisIs, Wrapper} from "./styled";
 
 const Content = () => {
     return (
@@ -9,6 +10,7 @@ const Content = () => {
                 🧑🏽‍🦱💻 I'm passionate Frontend Developer in love with React.
                 currently looking for new job opportunities.
             </Paragraph>
+            <Button/>
         </Wrapper>
     );
 };
