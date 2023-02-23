@@ -1,12 +1,12 @@
 import { Container } from "./components/Container";
-import Hero from "./components/Hero";
+import Header from "./components/Header";
 
 
 function App() {
   return (
     <Container>
-      <Hero>12412313421
-      </Hero>
+      <Header>
+      </Header>
     </Container>
   );
 }
