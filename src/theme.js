@@ -11,6 +11,7 @@ export const theme = {
         mercury: "#E5E5E5",
         slate_gray: "#6E7E91",
         science_blue: "#0366D6",
+        Text: "#6e7e91",
     },
 
     breakpoint: {
