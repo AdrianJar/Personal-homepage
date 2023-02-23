@@ -1,5 +1,5 @@
 import { Container } from "./common/Container";
-import Header from "./feature/Header";
+import Header from "./features/Header";
 
 
 function App() {
