@@ -1,14 +1,13 @@
 import Button from "./Button";
 import { Header, Paragraph, ThisIs, Wrapper } from "./styled";
+import { myData } from "../../data";
 
 const Content = () => {
     return (
         <Wrapper>
             <ThisIs>THIS IS</ThisIs>
-            <Header>Adrian Jaroszuk</Header>
-            <Paragraph>
-                🧑🏽‍🦱💻 I'm passionate Frontend Developer in love with React. Currently looking for first job opportunities.
-            </Paragraph>
+            <Header>{myData.name}</Header>
+            <Paragraph>{myData.description}</Paragraph>
             <Button />
         </Wrapper>
     );
