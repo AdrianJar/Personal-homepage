@@ -7,7 +7,7 @@ const Content = () => {
             <ThisIs>THIS IS</ThisIs>
             <Header>Adrian Jaroszuk</Header>
             <Paragraph>
-                🧑🏽‍🦱💻 I'm passionate Frontend Developer in love with React. Currently looking for new job opportunities.
+                🧑🏽‍🦱💻 I'm passionate Frontend Developer in love with React. Currently looking for first job opportunities.
             </Paragraph>
             <Button />
         </Wrapper>

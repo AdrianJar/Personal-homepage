@@ -29,8 +29,7 @@ export const Header = styled.h1`
 
 export const Paragraph = styled.p`
     max-width: 633px;
-    width: 100%;
-    margin: 35px 128px 0 0 ;
+    margin: 35px 0;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
