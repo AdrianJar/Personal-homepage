@@ -1,5 +1,4 @@
 import { Item, ItemList, StyledSection, Title } from "./styled";
-import { myData } from "../data";
 import bullet from "../../../images/bullet.svg"
 
 const Skills = ({ title , skills }) => {
