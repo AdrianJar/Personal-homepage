@@ -1,0 +1,40 @@
+export const myData = {
+
+    name: "Adrian Jaroszuk",
+    description: "🧑🏽‍🦱💻 I'm passionate Frontend Developer in love with React. Currently looking for first job opportunities.",
+    email: "adrianjaroszuk571@gmail.com",
+
+    currentSkills: [
+        "Semantic & accessible HTML",
+        "Responsive Web Design",
+        "Teamwork",
+        "Markdown",
+        "Immutability",
+        "CSS BEM convention",
+        "CSS Grid",
+        "CSS Flexbox",
+        "React Router",
+        "Redux-Saga",
+        "Redux (Toolkit)",
+        "React Hooks",
+        "Error handling",
+        "Working with API (fetch, axios)",
+        "JavaScript ES6+",
+        "Promises, Async/Await",
+        "GitHub Pull Requests & Review",
+        "Trello",
+        "Scrum",
+        "NPM",
+        "React",
+        "Git",
+    ],
+    
+    skillsToLearn: [
+        "React Context",
+        "Node.js",
+        "Cypress",
+        "Unit testing",
+        "TypeScript",
+        "JS classes",
+    ],
+};
