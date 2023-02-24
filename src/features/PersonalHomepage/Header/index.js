@@ -1,5 +1,5 @@
 import { Image } from "./Image/styled";
-import me from "../../../../src/images/me.jpeg"
+import me from "../../../../src/images/me.jpg"
 import Content from "./Content";
 import DarkMode from "./DrakMode";
 import { myData } from "../data";
