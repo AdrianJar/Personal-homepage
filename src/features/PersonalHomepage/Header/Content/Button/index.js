@@ -1,9 +1,10 @@
 import { Icon, MailButton, Text } from "./styled";
-import icon from "../../../../images/envelope-icon.svg"
+import icon from "../../../../../images/envelope-icon.svg"
+import { myData } from "../../../data";
 
 const Button = () => {
     return (
-        <MailButton>
+        <MailButton href={`mailto:${myData.email}`}>
             <Icon src={icon} alt="" />
             <Text>Hire Me</Text>
         </MailButton>

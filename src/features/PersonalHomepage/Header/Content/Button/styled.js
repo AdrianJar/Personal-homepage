@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MailButton = styled.button`
+export const MailButton = styled.a`
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,6 +13,7 @@ export const MailButton = styled.button`
     background-color: ${({ theme }) => theme.color.science_blue};
     border: 1px solid rgba(209, 213, 218, 0.3);
     border-radius: 4px;
+    text-decoration: none;
 
     &:hover{
         box-shadow: 
