@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const DMWrapper = styled.div`
-    width: 160px;
     height: 26px;
     display: flex;
     flex-direction: row;
@@ -14,7 +13,6 @@ export const DMWrapper = styled.div`
 `;
 
 export const DMStatus = styled.p`
-    width: 100px;
     height: 16px;
     font-weight: 700;
     font-size: 12px;
