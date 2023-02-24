@@ -25,6 +25,7 @@ export const Header = styled.h1`
     font-weight: 900;
     font-size: 38px;
     line-height: 46px;
+    color: ${({theme})=>theme.color.mineShaft};
 `;
 
 export const Paragraph = styled.p`
