@@ -20,6 +20,7 @@ export const DMStatus = styled.p`
     font-size: 12px;
     line-height: 1.3;
     text-transform: uppercase;
+    color: ${({theme})=>theme.color.textSecondary};
 `;
 
 export const DMButton = styled.button`
