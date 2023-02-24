@@ -1,9 +1,9 @@
-import { Item, ItemList, StyledSection, Title } from "./styled";
+import { Item, ItemList, Title, Wrapper } from "./styled";
 import bullet from "../../../images/bullet.svg"
 
 const Skills = ({ title , skills }) => {
     return (
-        <StyledSection>
+        <Wrapper>
             <Title>{title}</Title>
             <ItemList>
                 {skills.map((skill) =>
@@ -13,7 +13,7 @@ const Skills = ({ title , skills }) => {
                     </Item>
                 )}
             </ItemList>
-        </StyledSection>
+        </Wrapper>
     );
 };
 
