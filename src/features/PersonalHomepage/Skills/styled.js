@@ -4,6 +4,7 @@ export const StyledSection = styled.div`
     margin: 0 auto 72px auto;
     padding: 32px;
     max-width: 1216px;
+    background: ${({theme}) => theme.color.white}; 
     box-shadow: 0px 16px 58px 0px #090A3308, 0px -2px 50px 0px #090A3305;
 `;
 
@@ -14,7 +15,7 @@ export const Title = styled.h2`
     line-height: 36px;
     letter-spacing: 0.05em;
     margin: 0px;
-    color: ${({theme})=>theme.color.mineShaft};
+    color: ${({theme})=>theme.color.text};
     width: 100%;
     border-bottom: 1px solid rgba(209, 213, 218, 0.3);
     padding-bottom: 15px;
