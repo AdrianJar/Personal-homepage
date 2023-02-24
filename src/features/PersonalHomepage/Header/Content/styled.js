@@ -12,9 +12,9 @@ export const Image = styled.img`
 `;
 
 export const ThisIs = styled.caption`
-    width: 43px;
+    display: flex;
     margin-top: 64px;
-    color: ${({ theme }) => theme.color.slate_gray};
+    color: ${({ theme }) => theme.color.textSecondary};
     font-weight: 700;
     font-size: 12px;
     line-height: 15.6px;
@@ -25,7 +25,7 @@ export const Header = styled.h1`
     font-weight: 900;
     font-size: 38px;
     line-height: 46px;
-    color: ${({theme})=>theme.color.mineShaft};
+    color: ${({ theme }) => theme.color.text};
 `;
 
 export const Paragraph = styled.p`
@@ -34,4 +34,5 @@ export const Paragraph = styled.p`
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
+    color: ${({ theme }) => theme.color.textSecondary};
 `;
