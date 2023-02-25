@@ -13,6 +13,7 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
+    font-style: normal;
     background: ${({ theme }) => theme.color.background};
     color: ${({theme}) => theme.color.text};
     margin: 120px 0 110px;
