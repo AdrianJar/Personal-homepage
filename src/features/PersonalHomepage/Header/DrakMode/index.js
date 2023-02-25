@@ -4,7 +4,7 @@ const DarkMode = () => {
     return (
         <DMWrapper>
             <DMStatus>dark mode on</DMStatus>
-            <DMButton>SUN</DMButton>
+            <DMButton></DMButton>
         </DMWrapper>
 
     );
