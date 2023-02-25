@@ -17,9 +17,9 @@ export const myData = {
         "Git",
         "React",
         "React Router",
-        "Redux-Saga",
         "Redux (Toolkit)",
         "React Hooks",
+        "Redux-Saga",
         "Error handling",
         "Working with API (fetch, axios)",
         "Promises, Async/Await",
@@ -36,5 +36,37 @@ export const myData = {
         "Unit testing",
         "TypeScript",
         "JS classes",
+    ],
+
+    exampleProjects: [
+        {
+            id: 1,
+            title: "Movie Browser1",
+            description: "1Project description, e.g. website where you can search for favourite movies and people. Project description, e.g. website where you can search.",
+            demo: "https://link.demo1.com",
+            code: "https://link.code1.com",
+        },
+        {
+            id: 2,
+            title: "Movie Browser2",
+            description: "Project2 description, e.g. website where you can search for favourite movies and people. Project description, e.g. website where you can search.",
+            demo: "https://link.demo2.com",
+            code: "https://link.code2.com",
+        },
+        {
+            id: 3,
+            title: "Movie Browser3",
+            description: "Project3 description, e.g. website where you can search for favourite movies and people. Project description, e.g. website where you can search.",
+            demo: "https://link.demo3.com",
+            code: "https://link.code3.com",
+        },
+        {
+            id: 4,
+            title: "Movie Browser4",
+            description: "Project4 description, e.g. website where you can search for favourite movies and people. Project description, e.g. website where you can search.",
+            demo: "https://link.demo4.com",
+            code: "https://link.code4.com",
+        },
+
     ],
 };
