@@ -1,5 +1,6 @@
-import { Item, ItemList, Title, Wrapper } from "./styled";
+import { Item, ItemList, Wrapper } from "./styled";
 import bullet from "../../../images/bullet.svg"
+import { Title } from "../../../common/styled";
 
 const Skills = ({ title , skills }) => {
     return (
