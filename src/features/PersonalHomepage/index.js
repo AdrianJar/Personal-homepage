@@ -1,4 +1,4 @@
-import { Container } from "../../common/Container"
+import { Container } from "../../common/styled"
 import Header from "./Header"
 import Skills from "./Skills";
 import { myData } from "./data";
