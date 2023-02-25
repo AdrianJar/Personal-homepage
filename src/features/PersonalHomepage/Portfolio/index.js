@@ -1,12 +1,18 @@
-import { Wrapper, StyledImage } from "./styled";
+import { Wrapper, StyledImage, ProjectsWrapper} from "./styled";
 import github from "../../../images/github.svg"
+import { Paragraph, Title } from "../../../common/styled";
+import Project from "./Project";
 
 const Portfolio = () => {
-    return(
+    return (
         <Wrapper>
             <StyledImage src={github} alt="github" />
-            1211ko2ko1k2
-        </Wrapper>        
+            <Title portfolio>Portfolio</Title>
+            <Paragraph portfolio>My recent projects</Paragraph>
+            <ProjectsWrapper>
+                    <Project></Project>
+            </ProjectsWrapper>
+        </Wrapper>
     );
 };
 
