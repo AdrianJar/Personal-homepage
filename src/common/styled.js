@@ -30,6 +30,7 @@ export const Title = styled.h2`
     ${({ portfolio }) => portfolio && css`
         border: none;
         padding: 0;
+        text-align: center;
     `}
 `;
 
@@ -53,6 +54,8 @@ export const Paragraph = styled.p`
         font-weight: 400;
         font-size: 18px;
         line-height: 1.4;
+        margin: 24px 0;
+        text-align: ;
     `}
 `;
 
