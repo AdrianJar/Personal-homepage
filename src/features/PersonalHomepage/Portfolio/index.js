@@ -1,7 +1,7 @@
-import { Wrapper, StyledImage, ProjectsWrapper} from "./styled";
+import { Wrapper, StyledImage } from "./styled";
 import github from "../../../images/github.svg"
 import { Paragraph, Title } from "../../../common/styled";
-import Project from "./Project";
+import Projects from "./Projects";
 
 const Portfolio = () => {
     return (
@@ -9,9 +9,7 @@ const Portfolio = () => {
             <StyledImage src={github} alt="github" />
             <Title portfolio>Portfolio</Title>
             <Paragraph portfolio>My recent projects</Paragraph>
-            <ProjectsWrapper>
-                    <Project></Project>
-            </ProjectsWrapper>
+            <Projects />
         </Wrapper>
     );
 };
