@@ -1,11 +1,10 @@
-import { Paragraph } from "../../../../../common/styled";
+import { Link, Paragraph } from "../../../../../common/styled";
 
 const Demo = ({ demo }) => {
 
     return (
-        <Paragraph project>Demo: 
-        {demo}
-        
+        <Paragraph link>
+            Demo: <Link href={demo}>{demo}</Link>
         </Paragraph>
     )
 }
