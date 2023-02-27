@@ -13,6 +13,8 @@ export const Caption = styled.caption`
     font-weight: 700;
     font-size: 12px;
     line-height: 15.6px;
+    text-transform: uppercase;
+    
 `;
 
 export const Title = styled.h2`
@@ -50,18 +52,35 @@ export const Paragraph = styled.p`
         margin-bottom: 24px;
     `}
 
-    ${({ project }) => project && css`
+    ${({ mid }) => mid && css`
         font-weight: 400;
         font-size: 18px;
         line-height: 1.4;
-        margin: 24px 0;
-        text-align: ;
+        margin: 26px 0;
+    `}
+
+    ${({ midBlack }) => midBlack && css`
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.4;
+        margin: 26px 0;
+        color: ${({ theme }) => theme.color.black};
+    `}
+
+    ${({ link }) => link && css`
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.4;
+        margin: 8px 0;
     `}
 `;
 
 export const Link = styled.a`
-    color: ${({theme}) => theme.color.science_blue};
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.4;
+    color: ${({ theme }) => theme.color.science_blue};
+    text-decoration: none;
+    border-bottom: 1px solid rgba(3, 102, 214, 0.2);
+
+    &:hover{
+        border-bottom: 1px solid ${({ theme }) => theme.color.science_blue};
+    };
 `;
