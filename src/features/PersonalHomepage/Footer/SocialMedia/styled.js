@@ -4,22 +4,30 @@ import { ReactComponent as Github } from "./Logos/Github.svg";
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    color: ${({ theme }) => theme.color.black};
-    fill: ${({ theme }) => theme.color.black};
+    margin-top: 56px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 `;
 
 export const Link = styled.a`
-    color: ${({theme})=> theme.color.black};
-`;
-
-export const StyledLinkedIN = styled(LinkedIN)`
-    fill: ${({ theme }) => theme.color.black};
-`;
-
-export const StyledFacebook = styled(Facebook)`
-
+    color: ${({ theme }) => theme.color.text};
 `;
 
 export const StyledGithub = styled(Github)`
+    &:hover{
+        color: ${({ theme }) => theme.color.science_blue};
+    }
+`;
 
+export const StyledLinkedIN = styled(LinkedIN)`
+    &:hover{
+        color: ${({ theme }) => theme.color.science_blue};
+    }
+`;
+
+export const StyledFacebook = styled(Facebook)`
+    &:hover{
+        color: ${({ theme }) => theme.color.science_blue};
+    }
 `;
