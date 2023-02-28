@@ -10,4 +10,8 @@ export const MailAdress = styled.a`
     line-height: 40px;
     color: ${({ theme }) => theme.color.black};
     text-decoration: none;
+
+    &:hover{
+        color: ${({ theme }) => theme.color.science_blue};
+    }
 `;
