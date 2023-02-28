@@ -8,7 +8,7 @@ export const MailAdress = styled.a`
     font-weight: 900;
     font-size: 32px;
     line-height: 40px;
-    color: ${({ theme }) => theme.color.black};
+    color: ${({ theme }) => theme.color.text};
     text-decoration: none;
 
     &:hover{
