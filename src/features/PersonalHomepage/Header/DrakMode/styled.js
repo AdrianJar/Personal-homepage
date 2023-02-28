@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as Toggle } from "./Image/toggle.svg"
 
 export const DMWrapper = styled.div`
     height: 26px;
@@ -18,7 +19,7 @@ export const DMStatus = styled.p`
     font-size: 12px;
     line-height: 1.3;
     text-transform: uppercase;
-    color: ${({theme})=>theme.color.textSecondary};
+    color: ${({ theme }) => theme.color.textSecondary};
 `;
 
 export const DMButton = styled.button`
@@ -27,5 +28,10 @@ export const DMButton = styled.button`
     width: 48px;
     height: 26px;
     border-radius: 20px;
-    border: 1px solid ${({ theme }) => theme.color.Text};
+    border: 1px solid ${({ theme }) => theme.color.textSecondary};
+    background-color: ${({ theme }) => theme.color.mercury};
+`;
+
+export const DMIcon = styled(Toggle)`
+    color: ${({ theme }) => theme.color.textSecondary};
 `;
