@@ -6,7 +6,7 @@ export const Container = styled.div`
     margin: 0 auto;
 `;
 
-export const Caption = styled.caption`
+export const Caption = styled.p`
     display: flex;
     margin-top: 64px;
     color: ${({ theme }) => theme.color.textSecondary};
