@@ -1,4 +1,4 @@
-import { Caption, Paragraph } from "../../../common/styled";
+import { Caption, Paragraph } from "../../../../common/styled";
 import Mail from "./Mail";
 import SocialMedia from "./SocialMedia";
 import { FooterWrapper } from "./styled";

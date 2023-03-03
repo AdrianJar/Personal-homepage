@@ -1,6 +1,6 @@
 import Button from "./Button";
 import { Header, Wrapper } from "./styled";
-import { Caption, Paragraph } from "../../../../common/styled";
+import { Caption, Paragraph } from "../../../../../common/styled";
 import { myData } from "../../data";
 
 const Content = () => {

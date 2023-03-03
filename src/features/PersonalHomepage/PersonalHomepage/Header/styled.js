@@ -8,3 +8,11 @@ export const StyledSection = styled.div`
     position: relative;
     margin-bottom: 72px;
 `;
+
+export const Image = styled.img`
+    height: 398px;
+    width: 398px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+`;

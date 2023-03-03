@@ -1,16 +1,15 @@
-import { Image } from "./Image/styled";
-import me from "../../../../src/images/me.jpg"
+import me from "./image/me.jpg"
 import Content from "./Content";
-import DarkMode from "./DrakMode";
+import ThemeSwitch from "../../../../common/ThemeSwitch";
 import { myData } from "../data";
-import { StyledSection } from "./styled";
+import { Image, StyledSection } from "./styled";
 
 const Header = () => {
     return (
         <StyledSection>
             <Image src={me} alt={myData.name} />
             <Content />
-            <DarkMode />
+            <ThemeSwitch />
         </StyledSection>
     );
 }
