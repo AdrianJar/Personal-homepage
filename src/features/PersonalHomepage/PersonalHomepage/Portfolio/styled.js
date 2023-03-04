@@ -13,8 +13,11 @@ export const StyledImage = styled.img`
     margin-bottom: 12px;
 `;
 
-export const ProjectsWrapper = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 32px;
-`;
+export const MyProjects = styled.h3`
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: ${({theme}) => theme.colors.textPrimary};
+    `;
