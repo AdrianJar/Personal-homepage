@@ -1,8 +1,7 @@
 
 import { Paragraph } from "../../../../../common/styled";
 import { myData } from "../../data";
-import { ProjectsWrapper } from "../styled";
-import { ProjectTitle, StyledProject } from "./styled";
+import { ProjectsWrapper, ProjectTitle, StyledProject } from "./styled";
 import StyledLink from "./Link";
 
 const Projects = () => {
