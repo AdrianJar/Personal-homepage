@@ -16,5 +16,5 @@ export const Header = styled.h1`
     font-weight: 900;
     font-size: 38px;
     line-height: 46px;
-    color: ${({ theme }) => theme.color.text};
+    color: ${({theme}) => theme.colors.textPrimary};
 `;

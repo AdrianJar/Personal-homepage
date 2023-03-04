@@ -11,23 +11,23 @@ export const Wrapper = styled.div`
 `;
 
 export const Link = styled.a`
-    color: ${({ theme }) => theme.color.text};
+    color: ${({ theme }) => theme.colors.textPrimary};
 `;
 
 export const StyledGithub = styled(Github)`
     &:hover{
-        color: ${({ theme }) => theme.color.science_blue};
+        color: ${({ theme }) => theme.colors.primary};
     }
 `;
 
 export const StyledLinkedIN = styled(LinkedIN)`
     &:hover{
-        color: ${({ theme }) => theme.color.science_blue};
+        color: ${({ theme }) => theme.colors.primary};
     }
 `;
 
 export const StyledFacebook = styled(Facebook)`
     &:hover{
-        color: ${({ theme }) => theme.color.science_blue};
+        color: ${({ theme }) => theme.colors.primary};
     }
 `;

@@ -5,27 +5,19 @@ export const MailButton = styled.a`
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    text-decoration: none;
     padding: 0;
     margin-top: 32px;
-    color:${({ theme }) => theme.color.white} ;
+    color: ${({ theme }) => theme.colors.mailLink.text};
     width: 154px;
     height: 50px;
-    background-color: ${({ theme }) => theme.color.science_blue};
-    border: 1px solid rgba(209, 213, 218, 0.3);
+    background-color: ${({ theme }) => theme.colors.primary};
     border-radius: 4px;
-    text-decoration: none;
+    transition: box-shadow 0.3s;
 
     &:hover{
-        box-shadow: 
-            2px -2px 0px #8CC2FF, 
-            -2px 2px 0px #8CC2FF,
-            2px 2px 0px #8CC2FF, 
-            -2px -2px 0px #8CC2FF;
+        box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.mailLink.shadow};
         border-radius: 4px;
-    }
-
-    &:active{
-        box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
     }
 `;
 
@@ -41,5 +33,4 @@ export const Text = styled.p`
     font-size:20px;
     font-weight: 600;
     line-height: 24px;
-    color: ${({theme}) => theme.color.white};
 `;

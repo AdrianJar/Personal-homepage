@@ -8,10 +8,10 @@ export const MailAdress = styled.a`
     font-weight: 900;
     font-size: 32px;
     line-height: 40px;
-    color: ${({ theme }) => theme.color.text};
+    color: ${({ theme }) => theme.colors.textPrimary};
     text-decoration: none;
 
     &:hover{
-        color: ${({ theme }) => theme.color.science_blue};
+        color: ${({ theme }) => theme.colors.primary};
     }
 `;

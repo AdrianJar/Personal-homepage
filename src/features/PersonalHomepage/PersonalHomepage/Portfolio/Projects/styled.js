@@ -1,15 +1,20 @@
 import styled from "styled-components";
 
+export const ProjectsWrapper = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+`;
+
 export const StyledProject = styled.div`
     max-width: 592px;
     padding: 56px;
-    border: 6px solid rgba(209, 213, 218, 0.3);
-    box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
+    box-shadow: ${({theme}) => theme.boxShadow};
+    border: 6px solid ${({theme}) => theme.colors.box.border};
     border-radius: 4px;
 
     &:hover{
-        border: 6px solid rgba(3, 102, 214, 0.2);
-        box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
+        border: 6px solid ${({theme}) => theme.colors.box.borderHover};
         border-radius: 4px;
     }
 `;
@@ -20,6 +25,6 @@ export const ProjectTitle = styled.h3`
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-    color: ${({ theme }) => theme.color.science_blue};
+    color: ${({ theme }) => theme.colors.portfolio.title};
     margin: 0;
 `;
