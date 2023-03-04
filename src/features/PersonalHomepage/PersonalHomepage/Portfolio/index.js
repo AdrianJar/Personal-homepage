@@ -1,6 +1,6 @@
-import { Wrapper, StyledImage } from "./styled";
+import { Wrapper, StyledImage, MyProjects } from "./styled";
 import github from "./image/github.svg"
-import { Paragraph, Title } from "../../../../common/styled";
+import { Title } from "../../../../common/styled";
 import Projects from "./Projects";
 
 const Portfolio = () => {
@@ -8,7 +8,7 @@ const Portfolio = () => {
         <Wrapper>
             <StyledImage src={github} alt="github" />
             <Title portfolio>Portfolio</Title>
-            <Paragraph portfolio>My recent projects</Paragraph>
+            <MyProjects>My recent projects</MyProjects>
             <Projects />
         </Wrapper>
     );
