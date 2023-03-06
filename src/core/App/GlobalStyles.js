@@ -17,8 +17,12 @@ body {
     transition: background 0.3s;
     background: ${({theme}) => theme.colors.site.background};
     color: ${({theme}) => theme.colors.site.text};
-    margin: 120px 0 110px;
+    padding-bottom: 108px;
     word-break: break-word;
     letter-spacing: 0.05em;
+
+    @media(max-width: ${({theme})=>theme.breakpoint.mobileMax}px) {
+        padding-bottom: 32px;
+    }
 }
 `;
