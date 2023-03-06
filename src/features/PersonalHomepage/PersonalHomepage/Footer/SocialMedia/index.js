@@ -1,13 +1,18 @@
-import { Link, StyledFacebook, StyledGithub, StyledLinkedIN, Wrapper } from "./styled";
+import { List, Item, Link } from "./styled"
+import { socialIcons } from "./socialIcons"
 
 const SocialMedia = () => {
     return (
-        <Wrapper>
-            <Link href="https://github.com/AdrianJar" target="_blank"><StyledGithub /></Link>
-            <Link href="https://www.linkedin.com/in/adrian-jaroszuk-519655155/" target="_blank"><StyledLinkedIN /></Link>
-            <Link href="https://www.facebook.com/chipsti/" target="_blank"><StyledFacebook /></Link>
-        </Wrapper>
-    );
-};
+        <List>
+            {socialIcons.map(({ name, url, Icon }) => (
+                <Item key={name}>
+                    <Link href={url} title={name} target="_blank" rel="noreferrer">
+                        <Icon />
+                    </Link>
+                </Item>
+            ))}
+        </List>
+    )
+}
 
 export default SocialMedia

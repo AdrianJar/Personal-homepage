@@ -1,33 +1,33 @@
-import { ReactComponent as LinkedIN } from "./Logos/LinkedIN.svg";
-import { ReactComponent as Facebook } from "./Logos/Facebook.svg";
-import { ReactComponent as Github } from "./Logos/Github.svg";
+
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const List = styled.ul`
     margin-top: 56px;
+    margin-bottom: 0;
     display: flex;
-    flex-direction: row;
-    gap: 24px;
+    list-style: none;
+    padding: 0;
+`;
+
+export const Item = styled.li`
+    &:not(:last-child) {
+        margin-right: 24px;
+    }
 `;
 
 export const Link = styled.a`
     color: ${({ theme }) => theme.colors.textPrimary};
-`;
+    transition: color 0.3s;
 
-export const StyledGithub = styled(Github)`
     &:hover{
         color: ${({ theme }) => theme.colors.primary};
     }
 `;
 
-export const StyledLinkedIN = styled(LinkedIN)`
-    &:hover{
-        color: ${({ theme }) => theme.colors.primary};
-    }
-`;
+export const styleIcon = Icon => styled(Icon)`
+    height: auto;
 
-export const StyledFacebook = styled(Facebook)`
-    &:hover{
-        color: ${({ theme }) => theme.colors.primary};
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        width: 32px;
     }
 `;
