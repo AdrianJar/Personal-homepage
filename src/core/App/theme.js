@@ -36,7 +36,7 @@ export const themeLight = {
             background: colorName.whiteLilac,
             text: colorName.salteGray,
         },
-        mailLink: {
+        buttonLink: {
             text: colorName.white,
             shadow: colorName.anakiwa,
         },
@@ -70,7 +70,7 @@ export const themeDark = {
             background: colorName.mineShaft,
             text: colorName.white,
         },
-        mailLink: {
+        buttonLink: {
             text: colorName.white,
             shadow: colorName.shipCove,
         },
