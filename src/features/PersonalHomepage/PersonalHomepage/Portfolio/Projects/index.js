@@ -1,26 +1,23 @@
+import { ErrorBox } from "./ErrorBox";
+import { Loading } from "./Loading";
+import { Repositories } from "./Repositories";
 
-import { Paragraph } from "../../../../../common/styled";
-import { myData } from "../../data";
-import { ProjectsWrapper, ProjectTitle, StyledProject } from "./styled";
-import StyledLink from "./Link";
 
-const Projects = () => {
-    const projects = myData.exampleProjects;
+export const Projects = ({ status, repositories }) => {
+    switch (status) {
+        case "initial":
+            return null;
 
-    return (
-        <ProjectsWrapper>
-            {projects.map((project) => {
-                return (
-                    <StyledProject key={project.id}>
-                        <ProjectTitle>{project.title}</ProjectTitle>
-                        <Paragraph mid>{project.description}</Paragraph>
-                        <StyledLink title="Demo" link={project.demo} />
-                        <StyledLink title="Code" link={project.code} />
-                    </StyledProject>
-                )
-            })}
-        </ProjectsWrapper>
-    );
+        case "loading":
+            return <Loading />;
+
+        case "error":
+            return <ErrorBox />;
+
+        case "success":
+            return <Repositories repositories={repositories} />
+        
+            default:
+            throw new Error(`incorrect status: ${status}`);
+    }
 };
-
-export default Projects
