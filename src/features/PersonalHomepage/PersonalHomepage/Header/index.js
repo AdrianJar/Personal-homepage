@@ -1,16 +1,21 @@
-import me from "./image/me.jpg"
-import Content from "./Content";
-import ThemeSwitch from "../../../../common/ThemeSwitch";
+import profile from "./me.jpg"
+import { ButtonIcon, Description, Image, Name, StyledLinkButton, ThisIs, Wrapper } from "./styled";
 import { myData } from "../data";
-import { Image, StyledSection } from "./styled";
 
 const Header = () => {
     return (
-        <StyledSection>
-            <Image src={me} alt={myData.name} />
-            <Content />
-            <ThemeSwitch />
-        </StyledSection>
+        <Wrapper>
+            <Image src={profile} alt="Adrian Jaroszuk" />
+            <div>
+                <ThisIs>This is</ThisIs>
+                <Name>{myData.name}</Name>
+                <Description>{myData.description}</Description>
+                <StyledLinkButton href={`mailto:${myData.email}`} title={myData.email}>
+                    <ButtonIcon />
+                    Hire me
+                </StyledLinkButton>
+            </div>
+        </Wrapper>
     );
 }
 
