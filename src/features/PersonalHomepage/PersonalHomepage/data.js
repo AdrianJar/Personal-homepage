@@ -3,6 +3,8 @@ export const myData = {
     name: "Adrian Jaroszuk",
     description: "🧑🏽‍🦱💻 I'm passionate Frontend Developer in love with React. Currently looking for first job opportunities.",
     email: "adrianjaroszuk571@gmail.com",
+    github: "https://github.com/AdrianJar",
+    linked: "https://www.linkedin.com/in/adrian-jaroszuk-519655155/",
 
     currentSkills: [
         "Semantic & accessible HTML",
@@ -16,9 +18,9 @@ export const myData = {
         "CSS Flexbox",
         "Git",
         "React",
+        "React Hooks",
         "React Router",
         "Redux (Toolkit)",
-        "React Hooks",
         "Redux-Saga",
         "Error handling",
         "Working with API (fetch, axios)",
@@ -30,11 +32,11 @@ export const myData = {
     ],
 
     skillsToLearn: [
-        "React Context",
+        "TypeScript",
         "Node.js",
+        "React Context",
         "Cypress",
         "Unit testing",
-        "TypeScript",
         "JS classes",
     ],
 
