@@ -3,5 +3,5 @@ import axios from "axios";
 const gitHubApiBaseURL = " https://api.github.com"
 
 export const getRepositories = () =>
-    axios.get(`${gitHubApiBaseURL}/users/AdrianJar/repos}`)
+    axios.get(`${gitHubApiBaseURL}/users/AdrianJar/repos`)
         .then(response => response.data);
