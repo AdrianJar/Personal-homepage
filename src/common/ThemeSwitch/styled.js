@@ -2,11 +2,10 @@ import styled, { css } from "styled-components";
 import { ReactComponent as Toggle } from "./Image/toggle.svg"
 
 export const Wrapper = styled.div`
+    margin: 20px auto 0;
     display: flex;
     align-items: flex-start;
-    position: absolute;
-    top: 0;
-    right: 0;
+    justify-content: flex-end;
 `;
 
 export const Button = styled.button`
@@ -23,11 +22,15 @@ export const Status = styled.span`
     font-size: 12px;
     line-height: 1.3;
     text-transform: uppercase;
-    color: ${({theme})=> theme.colors.site.text};
+    color: ${({ theme }) => theme.colors.site.text};
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        display: none;
+    }
 `;
 
 export const Box = styled.span`
-    background-color: ${({theme}) => theme.colors.themeSwitch.background};
+    background-color: ${({ theme }) => theme.colors.themeSwitch.background};
     display: flex;
     align-items: center;
     width: 48px;
@@ -51,5 +54,5 @@ export const IconWrapper = styled.span`
 
 export const Icon = styled(Toggle)`
     margin: 3px;
-    color: ${({theme}) => theme.colors.themeSwitch.icon};
+    color: ${({ theme }) => theme.colors.themeSwitch.icon};
 `;
