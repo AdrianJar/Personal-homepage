@@ -4,7 +4,7 @@
 
 ## 🎮Demo
 
-[Link here](https://adrianjar.github.io/personalhomepage/)
+[Link here](https://adrianjar.github.io/Personal-homepage/)
 
 
 
