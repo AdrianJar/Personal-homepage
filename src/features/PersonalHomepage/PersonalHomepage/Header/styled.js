@@ -21,11 +21,16 @@ export const Wrapper = styled.div`
 
 export const Image = styled.img`
     width: 30vw;
+    height: 30vw;
     max-width: 384px;
+    max-height: 384px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         width: 132px;
+        height: 132px;
     }
 `;
 
@@ -51,6 +56,7 @@ export const Name = styled.h1`
 export const Description = styled.p`
     font-size: 20px;
     margin-top: 36px;
+    margin-bottom: 0px;
     line-height: 1.4;
     max-width: 650px;
     
