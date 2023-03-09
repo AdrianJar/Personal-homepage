@@ -1,11 +1,55 @@
-# Welcome
+# Portfolio homepage
+## 📑 Table of contents:
 
-## This is my Personal Home Page app. :)
+1. [🎮 Demo](#demo)
+2. [📖 Description](#description)
+3. [👀 Preview](#preview)
+4. [🛠 Technologies](#technologies)
 
 ## 🎮Demo
 
-[Link here](https://adrianjar.github.io/Personal-homepage/)
+You can find a demo version of this project [link here](https://adrianjar.github.io/Personal-homepage/).
 
+## 📖Description 
+
+Hello everyone, I’d like to show you my portfolio homepage project. This page includes, my skills which I already know and skills which I want to learn. Below skills there are my projects which are fetched from Github API. At the end of my homepage you can find how to contact me by mail, LinkedIN and GitHub.
+
+
+
+## 👀Preview 
+
+1.  Preview
+
+![Preview](https://github.com/AdrianJar/Personal-homepage/blob/master/public/Preview/Preview.gif)
+
+2.  ThemeSwtich
+
+![ThemeSwitch](https://github.com/AdrianJar/Personal-homepage/blob/master/public/Preview/ThemePreview.gif)
+
+3.  MobilePreview
+
+![MobilePreview](https://github.com/AdrianJar/Personal-homepage/blob/master/public/Preview/MobilePreview.gif)
+
+
+
+## 🛠Technologies
+
+- HTML
+- CSS
+- JavaScript
+- Flex
+- Grid
+- BEM
+- Markdown
+- Node.js
+- Styled-components
+- create-react-app
+- React
+- React Hooks (custom hooks)
+- React Redux
+- React Redux-Toolkit
+- React Redux-Saga
+- Axios 
 
 
 
