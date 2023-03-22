@@ -19,6 +19,4 @@ const selectThemeState = (state) => state.theme;
 
 export const selectIsDarkTheme = (state) => selectThemeState(state).isDarkTheme;
 
-console.log(selectIsDarkTheme);
-
 export default themeSlice.reducer;
